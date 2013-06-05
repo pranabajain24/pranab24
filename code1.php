@@ -5,17 +5,25 @@
 $user_name = $_POST['user_name'];
 $mobile_number = $_POST['mobile_number'];
 
-print($mobile_number);
-print($user_name);
 if ( isset( $_POST['submit1'] ) )
 {
-	if ($mobile_number == NULL )
+	if ($mobile_number == NULL && $user_name == NULL )
 	{		
 		print ("you should enter your name and number");
 	}
+	else if($mobile_number == NULL && $user_name != NULL)
+	{
+		print("you should enter your number");
+	}
+	else if($mobile_number!= NULL && $user_name==NULL)
+	{
+		print("you should enter your name");
+	}
 	else 
 	{
-		print ("Hello , friend!");
+		 printf("Hello , friend!\n");
+		 printf("your code is ");
+
 	}
 }
 else
