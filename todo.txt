@@ -1,0 +1,9 @@
+1. simple php page that has a form to enter a mobile number
+- localhost/rewards.php?code=abcbdd 
+  abcdd
+- 9874532849 has code abcdd
+
+
+2. save this mobile number to database
+3. generate a random code for this mobile number and put it in db
+4. make another php page that takes code as a url parameter and shows an address field to insert address in db
