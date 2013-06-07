@@ -1,5 +1,36 @@
+<!DOCTYPE html>
 <html>
 <head>
+<style>
+body
+{
+background-image:url('Background.jpg');
+background-repeat:repeat-y;
+}
+
+p
+{
+color:red;
+} 
+
+
+
+
+</style>
+
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+
+function validateForm()
+{
+
+} 
+
+
+</style>
+
+
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>
 
