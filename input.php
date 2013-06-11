@@ -20,7 +20,7 @@
   <h1>Mobile number</h1>
  
   <form name = "form1" onsubmit="return validateForm();" method= "POST" action="input_database.php" >
-    <textarea rows="25" cols="25" name="number" >
+    <textarea rows="25" cols="25" name="mobile_number" >
     </textarea>
    </br>
   <textarea rows="3" cols="80" name="script">
